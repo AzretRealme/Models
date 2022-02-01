@@ -18,5 +18,9 @@ public class Employee {
 
     @ManyToOne
     @JoinColumn(name = "positions_id")
-    Position position_id;
+    private Position position_id;
+
+    @ManyToOne
+    @JoinColumn(name = "addresses_id")
+    private Address address;
 }

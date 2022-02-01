@@ -13,5 +13,6 @@ public class EmployeeDto {
     private String first_name;
     private String patronymic;
 
-    Position position_id;
+    private PositionDto position_id;
+    private AddressDto address_id;
 }
